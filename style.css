@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    /* color: white; */
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+
+/* Style for nav bar */
+
+.navbar {
+    height: 50px;
+    width: 90%;
+    display: flex;
+    padding: 15px 0;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+    color: white;
+    font-size: 30px;
+
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    cursor: pointer;
+    background-color: black;
+
+}
+
+
+
+/* Music Page style start*/
+
+.left-cont {
+    margin-left: 6%;
+
+}
+
+.left-cont h1 {
+    font-size: 60px;
+    font-weight: 400;
+    float: left;
+    line-height: 80px;
+}
+
+.right-cont {
+    margin: 20% 5%;
+    font-size: 20px;
+    font-weight: 600;
+    float: right;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+
+}
+
+.right-cont:hover {
+    cursor: pointer;
+}
+
+#icon {
+    width: 80px;
+}
+
+/* Style of main Content */
+.content {
+    width: 100%;
+    position: absolute;
+
+}
+
+.left-content {
+    margin-left: 6%;
+}
+
+.left-content h1 {
+    font-size: 90px;
+    float: left;
+
+}
+
+
+
+
+/* Video Page Style start*/
+
+.main-cont {
+    border: 3px solid black;
+}
+
+.main-cont img {
+    margin-left: 30%;
+    size: 100px;
+}
+
+.top {
+    margin: 5% 20%;
+}
+
+.top h1 {
+    font-size: 50px;
+    font-weight: 90%;
+    text-align: center;
+    line-height: 50px;
+
+}
+
+.top p {
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.top button {
+    margin: 5px 40%;
+    padding: 5px;
+    font-size: 30px;
+    align-items: center;
+    border-radius: 2px solid black;
+    border-radius: 2rem;
+
+}
+
+.top button:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+/* Video Page Style end */
+
+
+
+/* Cards Page style  start*/
+.Content {
+    width: 100%;
+    position: absolute;
+    color: white;
+
+}
+
+.left_content {
+    float: left;
+    margin: 10px;
+}
+
+.left_content img {
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.right_content h1 {
+    font-size: 70px;
+}
+
+.right_content p {
+    font-size: 20px;
+}
+
+
+
+.bottom-content {
+    background-color: gray;
+    color: black;
+    height: 100px;
+    margin-top: 10%;
+}
+
+.bottom {
+    display: flex;
+    margin-left: 40%;
+    padding: auto;
+}
+
+
+
+
+.follow-options {
+    color: black;
+    font-size: 20px;
+    height: 20px;
+    margin: 20px;
+
+
+}
+
+.follow-options :hover {
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.follow-options span {
+    height: 20px;
+    width: 20px;
+    top: 20%;
+
+}
+
+.follow-options h3 {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Cards Page style end */
